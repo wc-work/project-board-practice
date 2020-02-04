@@ -58,6 +58,22 @@ html {
   display: unset;
 }
 
+.boxed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+  bottom: 22rem;
+  z-index: 5;
+}
+
+.logo {
+  width: 200px;
+}
+
 .video-still {
   display: none;
 }
@@ -76,7 +92,7 @@ html {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
 }
 
 /* ---------------------------------------------- */
