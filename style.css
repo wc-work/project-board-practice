@@ -50,40 +50,52 @@ html {
  * partials/header
  * ---
  */
-.header {
-  width: 100%;
-  height: 75px;
-  background-color: #141414;
-}
-
 /**
  * partials/footer
  * ---
  */
-.footer {
-  width: 100%;
-  height: 200px;
-  background-color: midnightblue;
-}
-
 #big-video {
-  overflow: hidden;
-  background: yellow;
+  display: unset;
 }
 
-.boxed {
-  border: 3px solid mediumspringgreen;
-  display: flex;
-  justify-content: center;
-  align-self: center;
+.video-still {
+  display: none;
 }
 
-.mov {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  height: 80vh;
-  max-height: 100vh;
+.placeholder {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 768px) {
+  #big-video {
+    overflow: hidden;
+    background: yellow;
+  }
+
+  .boxed {
+    border: 3px solid mediumspringgreen;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .mov {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 80vh;
+    max-height: 100vh;
+  }
+
+  .video-still {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    border: 3px solid tomato;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
