@@ -15,9 +15,9 @@ get_header();
       </div>
     </div>
     <div class="icon-box">
-      <a href="https://www.instagram.com/webcrumbs.dev/?hl=en"><img class="icon-size" src="http://video.demo/wp-content/themes/wordpress-theme-starter-master/img/icons/icon_instagram_blue.svg"></a>
-      <a href="https://twitter.com/WebCrumbsDev"><img class="icon-size" src="http://video.demo/wp-content/themes/wordpress-theme-starter-master/img/icons/icon_twitter_blue.svg"></a>
-      <a href="https://www.facebook.com/WebCrumbs.dev/"><img class="icon-size" src="http://video.demo/wp-content/themes/wordpress-theme-starter-master/img/icons/icon_facebook_blue.svg"></a>
+      <a href="https://www.instagram.com/webcrumbs.dev/?hl=en" target="_blank"><img class="icon-size" src="http://video.demo/wp-content/themes/wordpress-theme-starter-master/img/icons/icon_instagram_blue.svg"></a>
+      <a href="https://twitter.com/WebCrumbsDev" target="_blank"><img class="icon-size" src="http://video.demo/wp-content/themes/wordpress-theme-starter-master/img/icons/icon_twitter_blue.svg"></a>
+      <a href="https://www.facebook.com/WebCrumbs.dev/" target="_blank"><img class="icon-size" src="http://video.demo/wp-content/themes/wordpress-theme-starter-master/img/icons/icon_facebook_blue.svg"></a>
     </div>
   </div>
   <div id="big-video">
