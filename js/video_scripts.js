@@ -15,15 +15,23 @@
 		
 		var img = $('.mov').data('placeholder'),
 			video = $('.mov').data('video'),
-			noVideo = $('.mov').data('src'),
+			// noVideo = $('.mov').data('src'),
 			el = '';
+
+		var mobile = "http://video.demo/wp-content/themes/wordpress-theme-starter-master/img/video/webcrumbs-mobile.jpg";		
+		var medium = "http://video.demo/wp-content/themes/wordpress-theme-starter-master/img/video/webcrumbs-medium.jpg";		
+
 		
 		if($(window).width() > 767 && !isIEOld && !isiPad) {
 			el +=   '<video class="fullscreen-bg-video" autoplay muted loop poster="' + img + '">';
 			el +=       '<source src="' + video + '" type="video/mp4">';
 			el +=   '</video>';
-		} else {
-			el = '<div class="placeholder" style="background-image: url(' + noVideo + ')";></div>';
+		}
+		else if($(window).width() > 576 && !isIEOld && !isiPad) {
+			el = '<div class="placeholder" style="background-image: url(' + medium + ')";></div>';
+		} 
+		else {
+			el = '<div class="placeholder" style="background-image: url(' + mobile + ')";></div>';
 		}
 		
 		$('.mov').prepend(el);

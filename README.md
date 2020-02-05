@@ -30,5 +30,3 @@
 - Ask for PR Reviews from your collaborators
 - Merge code in to `Development` during development
 - After PR is merged, create a PR into `Master` where production code will live.
-
-adding back in for test
