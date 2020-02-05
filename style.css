@@ -79,14 +79,6 @@ html {
 .homepage .intro {
   width: 30rem;
   height: 26rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  font-family: "Noto", sans-serif;
-  color: #ebbc4e;
-  position: relative;
   bottom: 2rem;
 }
 .homepage .intro-headers {
@@ -127,13 +119,39 @@ html {
   bottom: 0;
   background: rgba(0, 0, 0, 0.6);
 }
+@media only screen and (min-width: 576px) {
+  .homepage .intro {
+    width: 40rem;
+    height: 48rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-family: "Noto", sans-serif;
+    color: #ebbc4e;
+    position: relative;
+    bottom: 13rem;
+  }
+  .homepage .logo {
+    width: 220px;
+  }
+  .homepage .intro-headers h1 {
+    font-size: 3.5rem;
+  }
+  .homepage .intro-headers h2 {
+    font-size: 2.5rem;
+  }
+  .homepage .icon-box {
+    position: relative;
+    bottom: 5rem;
+  }
+}
 @media only screen and (min-width: 768px) {
-  .homepage #big-video {
+  /* .homepage #big-video {
     overflow: hidden;
-    background: yellow;
   }
   .homepage .boxed {
-    border: 3px solid purple;
     display: flex;
     justify-content: center;
     align-self: center;
@@ -149,7 +167,6 @@ html {
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    border: 3px solid tomato;
   }
   .homepage .intro {
     width: 50rem;
@@ -168,6 +185,61 @@ html {
   }
   .homepage h2 {
     font-size: 2.5rem;
+  }
+  .homepage .icon-box {
+    bottom: 0 rem;
+  } */
+  .homepage {
+    background-color: black;
+    height: 100vh;
+  }
+  .homepage #big-video {
+    overflow: hidden;
+  }
+  .homepage .boxed {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  .homepage .mov {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 80vh;
+    max-height: 100vh;
+  }
+  .homepage .mov:before {
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: rgba(0,0,0,.6);
+  }
+  .homepage .video-still {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .homepage .intro {
+    width: 50rem;
+    height: 50rem;
+    display: flex;
+    bottom: 2rem;
+  }
+  .homepage .logo {
+    width: 40.5rem;
+  }
+  .homepage .intro-headers {
+    height: 50rem;
+  }
+  .homepage h1 {
+    font-size: 4rem;
+  }
+  .homepage h2 {
+    font-size: 2.5rem;
+  }
+  .homepage .icon-box {
+    bottom: 0rem; 
   }
 }
 
