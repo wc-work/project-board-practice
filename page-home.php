@@ -15,9 +15,9 @@ get_header();
       </div>
     </div>
     <div class="icon-box">
-      <img class="icon-size" style="fill: #ebbc4e"; src="http://video.demo/wp-content/themes/wordpress-theme-starter-master/img/icons/icon_instagram_yellow.svg">
-      <img class="icon-size" style="fill: #ebbc4e"; src="http://video.demo/wp-content/themes/wordpress-theme-starter-master/img/icons/icon_twitter_yellow.svg">
-      <img class="icon-size" style="fill: #ebbc4e"; src="http://video.demo/wp-content/themes/wordpress-theme-starter-master/img/icons/icon_facebook_yellow.svg">
+      <img class="icon-size" style="fill: #ebbc4e"; src="http://video.demo/wp-content/themes/wordpress-theme-starter-master/img/icons/icon_instagram_blue.svg">
+      <img class="icon-size" style="fill: #ebbc4e"; src="http://video.demo/wp-content/themes/wordpress-theme-starter-master/img/icons/icon_twitter_blue.svg">
+      <img class="icon-size" style="fill: #ebbc4e"; src="http://video.demo/wp-content/themes/wordpress-theme-starter-master/img/icons/icon_facebook_blue.svg">
     </div>
   </div>
   <div id="big-video">
