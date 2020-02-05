@@ -15,9 +15,9 @@ get_header();
       </div>
     </div>
     <div class="icon-box">
-      <img class="icon-size" style="fill: #ebbc4e"; src="http://video.demo/wp-content/themes/wordpress-theme-starter-master/img/icons/icon_instagram_blue.svg">
-      <img class="icon-size" style="fill: #ebbc4e"; src="http://video.demo/wp-content/themes/wordpress-theme-starter-master/img/icons/icon_twitter_blue.svg">
-      <img class="icon-size" style="fill: #ebbc4e"; src="http://video.demo/wp-content/themes/wordpress-theme-starter-master/img/icons/icon_facebook_blue.svg">
+      <a href="https://www.instagram.com/webcrumbs.dev/?hl=en"><img class="icon-size" src="http://video.demo/wp-content/themes/wordpress-theme-starter-master/img/icons/icon_instagram_blue.svg"></a>
+      <a href="https://twitter.com/WebCrumbsDev"><img class="icon-size" src="http://video.demo/wp-content/themes/wordpress-theme-starter-master/img/icons/icon_twitter_blue.svg"></a>
+      <a href="https://www.facebook.com/WebCrumbs.dev/"><img class="icon-size" src="http://video.demo/wp-content/themes/wordpress-theme-starter-master/img/icons/icon_facebook_blue.svg"></a>
     </div>
   </div>
   <div id="big-video">
@@ -31,5 +31,4 @@ get_header();
   </div>
 </section>
 
-<?php get_footer();
-?>
+<?php get_footer();?>
