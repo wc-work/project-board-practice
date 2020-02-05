@@ -80,6 +80,8 @@ html {
   width: 30rem;
   height: 26rem;
   bottom: 2rem;
+  color: #ebbc4e;
+  text-align: center;
 }
 .homepage .intro-headers {
   display: flex;
@@ -131,7 +133,7 @@ html {
     font-family: "Noto", sans-serif;
     color: #ebbc4e;
     position: relative;
-    bottom: 13rem;
+    bottom: 11rem;
   }
   .homepage .logo {
     width: 220px;
@@ -148,47 +150,6 @@ html {
   }
 }
 @media only screen and (min-width: 768px) {
-  /* .homepage #big-video {
-    overflow: hidden;
-  }
-  .homepage .boxed {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-  }
-  .homepage .mov {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    height: 80vh;
-    max-height: 100vh;
-  }
-  .homepage .video-still {
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
-  .homepage .intro {
-    width: 50rem;
-    height: 50rem;
-    display: flex;
-    bottom: 2rem;
-  }
-  .homepage .logo {
-    width: 40.5rem;
-  }
-  .homepage .intro-headers {
-    height: 50rem;
-  }
-  .homepage h1 {
-    font-size: 4rem;
-  }
-  .homepage h2 {
-    font-size: 2.5rem;
-  }
-  .homepage .icon-box {
-    bottom: 0 rem;
-  } */
   .homepage {
     background-color: black;
     height: 100vh;
