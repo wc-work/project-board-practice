@@ -3,11 +3,6 @@
  * ---
  * Main `sass` file. Import here `sass` files
  */
- /*
-    Theme Name: Crumby
-    Author: WebCrumbs
-    Version: 1.0
-*/
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
 * {
   -webkit-font-smoothing: antialiased;
@@ -177,9 +172,11 @@ html {
   .homepage .mov:before {
     content: "";
     position: absolute;
-    left: 0; right: 0;
-    top: 0; bottom: 0;
-    background: rgba(0,0,0,.5);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(248, 197, 197, 0.5);
   }
   .homepage .video-still {
     width: 100%;
@@ -193,7 +190,7 @@ html {
     bottom: 2rem;
   }
   .homepage .logo {
-    width: 40.5rem;
+    width: 23rem;
   }
   .homepage .intro-headers {
     height: 50rem;
@@ -205,7 +202,7 @@ html {
     font-size: 2.5rem;
   }
   .homepage .icon-box {
-    bottom: 0rem; 
+    bottom: 0rem;
   }
 }
 

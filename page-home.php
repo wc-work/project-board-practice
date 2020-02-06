@@ -8,7 +8,7 @@ get_header();
 <section class="homepage">
   <div class="boxed">
     <div class="intro">
-      <img class="logo" src="<?php echo get_template_directory_uri();?>/img/logos/color-webcrumbs-main.svg">
+      <img class="logo" src="<?php echo get_template_directory_uri();?>/img/logos/color-webcrumbs-main.png">
       <div class="intro-headers">
         <h1>Pave your digital footprint with WebCrumbs.</h1>  
         <h2>Coming soon</h2>
