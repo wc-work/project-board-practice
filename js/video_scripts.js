@@ -18,8 +18,8 @@
 			// noVideo = $('.mov').data('src'),
 			el = '';
 
-		var mobile = "https://webcrumbs.dev/wp-content/themes/wordpress-theme-starter-master/img/video/webcrumbs-mobile.jpg";		
-		var medium = "https://webcrumbs.dev/wp-content/themes/wordpress-theme-starter-master/img/video/webcrumbs-medium.jpg";		
+		var mobile = "http://video.demo/wp-content/themes/wordpress-theme-starter-master/img/video/webcrumbs-mobile.jpg";		
+		var medium = "http://video.demo/wp-content/themes/wordpress-theme-starter-master/img/video/webcrumbs-medium.jpg";		
 
 		
 		if($(window).width() > 767 && !isIEOld && !isiPad) {
