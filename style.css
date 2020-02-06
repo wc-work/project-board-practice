@@ -3,6 +3,11 @@
  * ---
  * Main `sass` file. Import here `sass` files
  */
+ /*
+    Theme Name: Crumby
+    Author: WebCrumbs
+    Version: 1.0
+*/
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
 * {
   -webkit-font-smoothing: antialiased;
